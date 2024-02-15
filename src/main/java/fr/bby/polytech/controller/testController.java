@@ -6,12 +6,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(path = "api/user")
+@RequestMapping(path = "api")
 @CrossOrigin
 public class testController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Hello World";
+        return "Hello Polytech";
     }
 }
