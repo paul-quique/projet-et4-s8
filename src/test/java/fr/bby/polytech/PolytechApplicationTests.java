@@ -8,6 +8,7 @@ class PolytechApplicationTests {
 
     @Test
     void contextLoads() {
-    }
+        "hello world"
+
 
 }
